@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 int main(void) {
     int n = 7;  //giving size of array
     int old[n], new[n],j,i;
@@ -14,7 +14,7 @@ int main(void) {
             if(old[x]!=old[j]) {        //checking that the number should not multiply the storing number
                 prod *= old[x];
             }
-            x++;
+            x++;    //comment
         }
         new[j]=prod;        //storing product in new array
     }
@@ -29,4 +29,4 @@ int main(void) {
         i!=n-1?(printf("%d,",new[i])):(printf("%d",new[i]));    ////number should not end with a ','
     }
     return 0;
-}*/
+}
